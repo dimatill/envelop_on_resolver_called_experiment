@@ -1,0 +1,23 @@
+{
+  "name": "envelop_on_resolver_called_experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@envelop/core": "1.3.0",
+    "@graphql-tools/schema": "8.2.0",
+    "@types/node": "16.4.12",
+    "graphql": "15.6.1",
+    "typescript": "^4.1.3"
+  }
+}
